@@ -85,6 +85,11 @@ def vPadre():
     return render_template("vPadre.html")
 
 
+@views.route('/test-form', methods=['GET'])
+def test_form():
+    return render_template("test-form.html", dic=d, nombre="FirstName", apellido="LastName", edad=str(2022-d["DateOfBirth"].year))
+
+
 @views.route('/test', methods=['GET'])
 def test():
-    return render_template("test.html", dic=d, nombre="FirstName", apellido="LastName", edad=str(2022-d["DateOfBirth"].year))
+    return render_template("test.html")
