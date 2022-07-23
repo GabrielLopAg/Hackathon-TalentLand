@@ -61,16 +61,16 @@
 
 ### Instalar requerimientos
 
-Deberás instalar los requerimientos mencionados en el archivo 'requirements.txt'
+  - Deberás instalar los requerimientos mencionados en el archivo 'requirements.txt'
 pip install -r requirements.txt
 
 ### Establecer variables de entorno
-set "API_KEY=11e0785b905a46259a86c40faba12205"
-set "ENDPOINT=https://educa-form-recognizer.cognitiveservices.azure.com/"
-set "FLASK_APP=run.py"
+  - set "API_KEY=11e0785b905a46259a86c40faba12205"
+  - set "ENDPOINT=https://educa-form-recognizer.cognitiveservices.azure.com/"
+  - set "FLASK_APP=run.py"
 
 ### Ejecutar en Flask
-flask run
+  - flask run
 
 # Autores ✒️
 - Uriel Badillo: https://github.com/UrieLBadilloG
