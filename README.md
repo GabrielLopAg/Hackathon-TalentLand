@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="NITE logo" src="https://i.ibb.co/gFJkDmc/filename.png" width=100  >
+  <img alt="NITE logo" src="https://user-images.githubusercontent.com/34460585/180590005-4e77e9b9-fdfe-4768-9148-bcd704e407ac.png" width=100  >
 </p>
 <h1 align="center">
   <a href="#">
@@ -8,155 +8,73 @@
 </h1>
 
 <p align="center">
-  <strong>------------ </strong><br>
+  <strong>Solución propuesta para el reto HCL "Educación gratuita para estudiantes" Talent Land 2022</strong><br>
   @Hackaton hunters
 </p>
 
-
 <p align="center">
-    <img src="https://img.shields.io/github/license/JoulesCH/juegos_del_hambre.svg" alt="MIT License" />
+  Nite es una plataforma web totalmente gratuita dedicada para estudiantes de educación básica que se hayan visto afectados académicamente por el confinamiento   derivado del COVID-19.
+</p>  
 
-  <a href="#">
-    <img src="https://img.shields.io/github/issues/JoulesCH/juegos_del_hambre.svg" alt="No issues." />
-  </a>
+<h3 align="center">
+      <strong>Tecnologías</strong>
+  
+  <h5 align="center">
+    ☑️Python 3.*
+    ☑️Flask
+    ☑️JavaScript
+    ☑️SQL Server
+    ☑️Azure 
+  </h4>
+</h3>
+  
+  
+# Funcionalidades de proyecto
+- Se adaptará totalmente al estilo de aprendizaje del alumno y al avance que este tenga gracias al uso de Machine Learning.
+- Permite la comunicación 1-1 entre alumnos y tutores a través de servicios de chat y videollamada así como una gran cantidad de cursos para su desarrollo fuera de clases y reunionones.
+- Permite visualizar a los padres el progreso de su hijo a través de distintas gráficas, además de informarle cuando se detecte cualquier tipo de anomalía en el desempeño de su hijo con el fin de poder detectar el problema.
+- Promueve el aprendizaje entre comunidad para que aquellos estudiantes con mayor cantidad de competencias apoye a estudiantes con mayores dificultades en su progreso.
 
-  <a href="#">
-    <img src="https://img.shields.io/github/watchers/JoulesCH/juegos_del_hambre.svg" alt="Current npm package version." />
-  </a>
+# Flujo de la página
 
-  <a href="#">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="Watchers" />
-  </a>
-</p>
+### Pantalla principal
+![Pantalla_principal](https://user-images.githubusercontent.com/34460585/180602422-e20ba612-eee4-4838-9e89-4bf542368074.jpeg)
 
-<p align="center">
-    <a href="#">
-        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Javascript" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" alt="VueJS" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="SaSS" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="FastAPI" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" />
-    </a>
-</p>
+### Test de tipos de aprendizaje
+![Test aprendizaje](https://user-images.githubusercontent.com/34460585/180603505-311bcdf5-08b9-4d29-a532-7279acad07f1.jpeg)
 
-## Alcance
+### Lista de cursos
+![Cursos](https://user-images.githubusercontent.com/34460585/180603516-592d8452-ecbe-45a3-b07c-ee558b1177ef.jpg)
 
-☑️ **Visualización de Constancias** 
+### Sistema de recompensas
+![Insiginias](https://user-images.githubusercontent.com/34460585/180603459-249b8684-0528-4146-87e7-7ff10e62d944.jpeg)
 
-- El sistema debe ser capaz de generar dos tipos de constancias por default:
-    - Constancia de inscripción con historial
-    - Constancia de seguimiento académico para CONACyT
-- Las constancias pueden o no llevar el espacio para firma autógrafa del Jefe de la SEPI de acuerdo a la solicitud que se haga
-- Las constancias deben de contar con un QR que permita su validación a través de una app o un portal web
 
-☑️ **Captura de información**
+## Diagrama de recursos de Azure
+![Diagrama Azure](https://user-images.githubusercontent.com/34460585/180604137-07d981e4-9108-4d66-8421-46cbe29918fc.jpeg)
 
-- Subir de forma masiva e individual el historial académico del alumno (administradores SEPI)
-- Que sea posible subir la lista de calificaciones (docentes)
 
-☑️ **Catálogos que deben contar con módulo de administración para ABC simples**
-
-- Programa Académico
-- Institución Procedencia
-
-## Observaciones Técnicas
-
-- Contemplar que un mismo alumno puede tener varios números de boleta, pues se le asigna uno diferente cada vez que se inscriben a un posgrado (de Maestría a Doctorado o de Maestría Trunca a Maestría).
-- El diseño de la página deberá tener coherencia visual con la *[Guía de Diseño Web del IPN](https://www.ipn.mx/assets/files/cenac/docs/Web/GuiaDeDisenoWeb.pdf).*
-
-# Despliegue Local 🎸
-
-Somos un **equipo ágil**, por lo que necesitamos desarrollar Software de forma rápida y sencilla, sin  que exista intervención humana a la hora de mandar nuestro Software a producción. 
-
-Para trabajar sería necesario que todos los desarrolladores:
-
-- Tengan el mismo sistema que el de producción (linux)
-- Tengan exactamente la misma versión del lenguaje backend
-- Instalen las dependencias (librerías) con la misma versión
-- Instalen la RDBMS (base de datos) y la tengan ejecutando
-
-y un par de cosas más. 
-
-Como te puedes imaginar **no es factible** cumplir con muchos de de esos puntos. A continuación te presentamos la tecnología que nos simplifica el desarrollo, haciendo que no nos tengamos que preocupar por lo anterior.  
-
-## 1️⃣ **Docker**
-
-Esta tecnología permite instalar e iniciar en un **contenedor** (un entorno cerrado) aquellas cosas que la aplicación necesita para ser ejecutada (lenguaje backend, dependencias, etc.) y la propia aplicación. Dicho contenedor puede iniciarse en **cualquier** máquina que tenga instalado Docker, sin importar su sistema operativo. También se encarga de instalar las dependencias en las versiones indicadas, haciendo que todos veamos el mismo producto.
-
-## 2️⃣**Docker Compose**
-
-Con **Compose** podemos definir varios contenedores Docker y la configuración de la aplicación en cuestión. De esta manera con un solo comando podemos crear e iniciar los servicios configurados.
-
-## 3️⃣ WSL
-
-Windows Subsystem for Linux es una capa de compatibilidad desarrollada por Microsoft para correr Linux nativamente en Windows 10; **simula** un [kernel de Linux](https://es.wikipedia.org/wiki/Nucleo_Linux) (sin contener código de Linux propiamente dicho).
-
-# Instalar Docker 🎛️
-
-## 📃**Guía Oficial**
-
-Puedes revisar la guía oficial entrando al siguiente link: [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
-
-## 📑Guía rápida
-
-### **Windows 10**
-
-- Necesitas tener **WSL** (Windows Subsystem For Linux). Puedes instalarlo y activarlo entrando a [este enlace](https://www.wikiversus.com/informatica/windows/como-instalar-wsl-windows-subsystem-for-linux-windows-10/); no es necesario que instales alguna versión de Linux en específico.
-- Activar la **virtualización desde la BIOS**. Para ver si tienes la virtualización activa puedes abrir el *administrador de tareas,* ir a *Rendimiento -> CPU* y buscar el parámetro *Virtualización.* Si no está habilitado entonces:
-    1. **Acceder a la BIOS de tu computadora**, deberás apagar tu computadora y cuando se esté prendiendo presionar una tecla especial (depende de cada computadora, googlea el modelo de computadora seguido de "tecla BIOS")
-    2. Buscar alguna opción que diga Virtual Technology o Virtualization Technology y **activarla** (igual cambia por cada computadora, googlea tu modelo)
-- Instalar [Docker Desktop for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows/)
-
-### **Mac**
-
-- Instalar [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/)
-
-Si utilizas **Linux** muy probablemente no estás leyendo esta guía para instalar Docker.
 
 # Correr la aplicación 💻
 
-## 🏗️ Construir los contenedores
+### Crear entorno virtual
 
-Deberás descargar y construir los contenedores, ejecutar:
+### Instalar requerimientos
 
-```jsx
-$ docker-compose build
-```
+  - Deberás instalar los requerimientos mencionados en el archivo 'requirements.txt'
+pip install -r requirements.txt
 
-este comando se debe ejecutar cada vez que las dependencias (librerías) cambien, normalmente se recomienda que lo hagas cada vez que sincronices tu repositorio con el remoto.
+### Establecer variables de entorno
+  - set "API_KEY=11e0785b905a46259a86c40faba12205"
+  - set "ENDPOINT=https://educa-form-recognizer.cognitiveservices.azure.com/"
+  - set "FLASK_APP=run.py"
 
-## 🆙Iniciar los contendores
+### Ejecutar en Flask
+  - flask run
 
-Una vez que hayas construido, debes ejecutar el siguiente comando para iniciar todo:
-
-```jsx
-$ docker-compose up
-```
-
-**Tip** puedes utilizar el siguiente comando para construir y después iniciar los contenedores:
-
-```jsx
-$ docker-compose up --build
-```
-
-Para acceder a la aplicación debes ingresar a la url: **http://localhost:8080**
+# Autores ✒️
+- Uriel Badillo: https://github.com/UrieLBadilloG
+- Axel Centeno: https://github.com/AxelCenteno
+- Alejandro Gómez: https://github.com/AlexNear77
+- Gabriel López: https://github.com/GabrielLopAg 
+- Aldo Rodríguez

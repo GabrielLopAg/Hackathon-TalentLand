@@ -115,3 +115,16 @@ def pruebaC():
     return render_template("pruebaC.html")
 
 
+@views.route('/dAyuda', methods=['GET'])
+def dAyuda():
+    return render_template("dAyuda.html")
+
+
+@views.route('/nAyuda', methods=['GET'])
+def nAyuda():
+    return render_template("nAyuda.html")
+
+
+@views.route('/perfil', methods=['GET'])
+def perfil():
+    return render_template("perfil.html")

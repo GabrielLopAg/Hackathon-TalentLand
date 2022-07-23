@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>CodexBook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <span>NI</span>TE
+        </a>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fa fa-bars"></label>
+        <nav class="navbar">
+            <a href="/index">inicio</a>
+            <a href="/profile">Mi perfil</a>
+        </nav>
+
+    </header>
+    <section class="inicio" id="inicio">
+        <div class="content">
+            <h3>Bienvenido a NITE<span><br> Uriel Badillo </span></h3>
+            <p>
+                badillogarrido@gmail.com
+            </p>
+            <a href="/cv" class="btn">Actualizar mis datos</a>
+            <p></p>
+            <a href="#informacion" class="btn"> Ver insignias</a>
+        </div>
+        <div class="image2">
+        <img src="{{url_for('static', filename='/img/perf.png')}}" alt="">
+        </div>
+    </section>
+    <section class="informacion" id="informacion">
+        <h1 class="heading">Tus insisgnias</h1>
+        <div class="caja-contenedor">
+            <div class="caja">
+                <img src="{{url_for('static', filename='/img/oro.png')}}" alt="">
+                <h3>Por haber contribuido a la educacion de otros niños</h3>
+                <p>Tema: suma de fracciones
+                </p>
+                <div class="bottons">
+                    <a href="#certificate" class="btn"><i class="fa-solid fa-code"></i> Descargar</a>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="{{url_for('static', filename='/img/plata.png')}}" alt="">
+                <h3>Por haber demostrado tus habilidades en:</h3>
+                <p>Suma de fracciones con enteros
+                </p>
+                <div class="bottons">
+                    <a href="#certificate" class="btn"><i class="fa-solid fa-code"></i> Descargar</a>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="{{url_for('static', filename='/img/plata.png')}}" alt="">
+                <h3>Por haber demostrado tus habilidades en:</h3>
+                <p>Suma de fracciones
+                </p>
+                <div class="bottons">
+                    <a href="#certificate" class="btn"><i class="fa-solid fa-code"></i> Descargar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
