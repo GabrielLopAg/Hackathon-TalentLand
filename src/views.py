@@ -113,3 +113,5 @@ def curso2():
 @views.route('/pruebaC', methods=['GET'])
 def pruebaC():
     return render_template("pruebaC.html")
+
+
