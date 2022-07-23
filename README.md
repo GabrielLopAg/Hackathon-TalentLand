@@ -53,6 +53,17 @@
 ## Diagrama de recursos de Azure
 ![Diagrama Azure](https://user-images.githubusercontent.com/34460585/180604137-07d981e4-9108-4d66-8421-46cbe29918fc.jpeg)
 
+### Gráficas de las analíticas obtenidas a través de Power BI
+
+#### Calificaciones del estudiantes por unidad
+  - ![calificaciones-unidad](https://user-images.githubusercontent.com/34460585/180626198-e8764a2d-f65f-4b6b-a772-58203b9c0b84.jpeg)
+
+#### Actividades realizadas por periodos de tiempo
+![Actividades realizadas por tiempo](https://user-images.githubusercontent.com/34460585/180626210-4e8548d2-5233-4a48-ade5-efcb7b7ccb7c.jpeg)
+
+
+#### Estudio del tipo de aprendizaje del estudiante
+![Tipo de aprendizaje](https://user-images.githubusercontent.com/34460585/180626215-a44e1e68-bcc0-4a0e-ae54-667bb9c17150.jpeg)
 
 
 # Correr la aplicación 💻
@@ -71,6 +82,9 @@ pip install -r requirements.txt
 
 ### Ejecutar en Flask
   - flask run
+
+## App web desplegada en un servidor de Azure
+  - https://educationery.azurewebsites.net
 
 # Autores ✒️
 - Uriel Badillo: https://github.com/UrieLBadilloG
