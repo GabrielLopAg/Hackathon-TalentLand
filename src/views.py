@@ -93,3 +93,23 @@ def test_form():
 @views.route('/test', methods=['GET'])
 def test():
     return render_template("test.html")
+
+
+@views.route('/aprobado', methods=['GET'])
+def aprobado():
+    return render_template("aprobado.html")
+
+
+@views.route('/curso', methods=['GET'])
+def curso():
+    return render_template("curso.html")
+
+
+@views.route('/curso2', methods=['GET'])
+def curso2():
+    return render_template("curso2.html")
+
+
+@views.route('/pruebaC', methods=['GET'])
+def pruebaC():
+    return render_template("pruebaC.html")

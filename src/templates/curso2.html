@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>EDUCAtionery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos2.css') }}">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <span>EDUCA</span>tionery
+        </a>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fa fa-bars"></label>
+        <nav class="navbar">
+            <a href="/alumno/gView.html">inicio</a>
+        </nav>
+
+    </header>
+    <section class="login" id="login">
+        <div class="bottons">
+            <center><a href="/curso.html" class="btn" disabled><i class="fa-solid fa-badge-check"></i>Anterior</a></center>
+        </div>
+        <div class="vid">
+            <h2 class="heading">Suma de fracciones</h2>
+            <center><h1>10/10</h1></center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jvNr-n3KZ5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="bottons">
+            <center><a href="/pruebaC.html" class="btn"><i class="fa-solid fa-badge-check"></i>Siguiente</a></center>
+        </div>
+    </section>
+</body>
+
+</html>
