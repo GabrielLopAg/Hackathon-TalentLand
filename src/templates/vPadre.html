@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>CodexBook</title>
+    <title>NITE</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
 
@@ -15,12 +15,15 @@
 
     <header>
         <a href="#" class="logo">
-            <span>CODEX</span>book
+            <span>NI</span>TE
         </a>
         <input type="checkbox" id="menu-bar">
         <label for="menu-bar" class="fa fa-bars"></label>
         <nav class="navbar">
-            <a href="/">inicio</a>
+            <a href="/createA">Crear hijo</a>
+            <a href="/perfil">Perfil hijo</a>
+            <a href="/">Mi perfil</a>
+            <a href="/">Cerrar sesion</a>
         </nav>
 
     </header>
@@ -34,27 +37,21 @@
                     </div>
                         <div class="caja">
                             <i class="fa-solid fa-laptop-code"></i>
-                            <div class="user">
+                            <div class="user2">
                                 <!-- <img src="img/icono1.png" alt=""> -->
-                                <img src="{{url_for('static', filename='img/icono1.png')}}" alt="">
+                                <img src="{{url_for('static', filename='img/grafica1.png')}}" alt="">
 
-                                <h3>Top 1</h3>
-                                <h3>Uriel Badillo Garrido</h3>
-                                <div class="comentarios">
-                                    96% en java
-                                </div>
+                                <h3>Progreso Matemáticas</h3>
+                                <h3></h3>
+                                                            
                             </div>
                         </div>
                         <div class="caja">
                             <i class="fa-solid fa-laptop-code"></i>
-                            <div class="user">
+                            <div class="user1">
                                 <!-- <img src="img/icono1.png" alt=""> -->
-                                <img src="{{url_for('static', filename='img/icono1.png')}}" alt="">
-                                <h3>Top 1</h3>
-                                <h3>Uriel Badillo Garrido</h3>
-                                <div class="comentarios">
-                                    96% en java
-                                </div>
+                                <img src="{{url_for('static', filename='img/aprendizaje.png')}}" alt="">
+                                <h3>Seccionamiento de aprendizajes</h3>
                             </div>
                         </div>
                     </div>

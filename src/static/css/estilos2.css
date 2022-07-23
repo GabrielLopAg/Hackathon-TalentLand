@@ -283,6 +283,117 @@ iframe {
     transition: .2 linear;
 }
 
+
+.prueba .caja-contenedor{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.prueba .caja-contenedor .caja{
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+}
+
+.prueba .caja-contenedor .caja .fa-laptop-code{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 8rem;
+    color: var(--verde);
+    opacity: .3;
+}
+.prueba .caja-contenedor .caja .user img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+
+}
+.redondeado {
+    border-radius: 5px;
+    background-color: var(--limon);
+  }
+  .rmd {
+    border-radius: 5px;
+    background-color: #ffffff;
+    
+    border: 1px solid #333;
+    width: 50rem;
+    height: 5rem;
+  }
+  
+
+.prueba .caja-contenedor .caja .user h3{
+    color: var(--verde);
+    font-size: 2rem;
+}
+
+.prueba .caja-contenedor .caja .user .stars i {
+    color: var(--verde);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.prueba .caja-contenedor .caja .user .comentarios{
+    color: #666;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.prueba  .div .inputcaja select{
+    position: center;
+    color: #666;
+    font-size: 1.7rem;
+    transition: .2 linear;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: url(../img/nss.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inicio .image img{
+    width: 25vw;
+    animation: float 3s linear infinite;
+}
+.inicio .image2 img{
+    width: 25vw;
+}   
+@keyframes float {
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(-3.5rem);
+    }
+}
+.inicio{
+    flex-flow: column-reverse;
+}
+.inicio .image{
+    width: 100%;
+}
+.inicio .content h3{
+    font-size: 3.6rem;
+}
+.inicio .content p{
+    font-size: 1.5rem;
+}
+
+
 @keyframes roll{
     0%{
         opacity: 0;

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>NITE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">
+            <span>NI</span>TE
+        </a>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fa fa-bars"></label>
+        <nav class="navbar">
+            <a href="/Notificaciones">Notificaciones</a>
+            <a href="/seccionar">Horarios</a>
+            <a href="/">Mi perfil</a>
+            <a href="/">Cerrar sesion</a>
+        </nav>
+
+    </header>
+    <section class="prueba" id="prueba">
+        <h1 class="heading">Bienvenido a NITE</h1>
+        <!--Elimine el select y el div que lo contenia-->
+        <div class="caja-contenedor">
+                <div class="caja">
+                    <div class="user">
+                        <h3>Listas de Asesorias</h3>
+                    </div>
+                        <div class="caja">
+                            <table class="table">
+                                <tr scope="row">
+                                  
+                                  <th>Nombre</th>
+                                  <th>Materia</th>
+                                  <th>Fecha</th>
+                                  <th>Hora</th>
+                                  <th>Chat</th>
+                                  <th>Videollamada</th>
+                                </tr>
+                                <tr>
+                                  
+                                  <td>Uriel Badillo</td>
+                                  <td>Matemáticas</td>
+                                  <td>12/09/22</td>
+                                  <td>14:00</td>
+                                  <td><a href="https://educhat.azurewebsites.net" class="btn">Ir</a></td>
+                                  <td><a href="https://claseasesoriav.azurewebsites.net" class="btn">Ir</a></td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Uriel Badillo</td>
+                                    <td>Matemáticas</td>
+                                    <td>12/09/22</td>
+                                    <td>14:00</td>
+                                    <td><a href="https://educhat.azurewebsites.net" class="btn">Ir</a></td>
+                                    <td><a href="https://claseasesoriav.azurewebsites.net" class="btn">Ir</a></td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Uriel Badillo</td>
+                                    <td>Matemáticas</td>
+                                    <td>12/09/22</td>
+                                    <td>14:00</td>
+                                    <td><a href="https://educhat.azurewebsites.net" class="btn">Ir</a></td>
+                                    <td><a href="https://claseasesoriav.azurewebsites.net" class="btn">Ir</a></td>
+                                </tr>
+                              </table>
+                                                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+</html>

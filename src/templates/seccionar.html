@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>NITE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos2.css') }}">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <span>NI</span>TE
+        </a>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fa fa-bars"></label>
+        <nav class="navbar">
+            <a href="/vProfesor">inicio</a>
+        </nav>
+
+    </header>
+    
+    <section class="prueba" id="prueba">
+        <br><br><br>
+        <center>
+        <select name="select" class="fa-solid fa-laptop-code">
+            <option value="value1" selected><h3>Selecciona el grado           </h1></option>
+            <option value="value2" >Primaria</option>
+            <option value="value3">Secundaria</option>
+          </select>
+          
+          <select name="select" class="fa-solid fa-laptop-code">
+            <option value="value1" selected><h3>Selecciona el nivel            </h1></option>
+            <option value="value2" >1</option>
+            <option value="value3">2</option>
+            <option value="value3">3</option>
+          </select>
+          <select name="select" class="fa-solid fa-laptop-code">
+            <option value="value1" ><h3>Selecciona la materia                  </h1></option>
+            <option value="value2" >Matemáticas</option>
+            <option value="value3">Geografia</option>
+            <option value="value2" >Física</option>
+            <option value="value3">Biologia</option>
+          </select>
+        </center>
+        <br>
+        <center>
+            <a href="/seccionar" class="btn"><i class="fa-solid fa-badge-check"></i>Aceptar</a>
+        </center>
+        <br><br><br>
+        <br>
+        <center>
+            <input type="date">
+            <input type="time" name="" id="">
+            </center>
+            <br>
+            <center>
+                <a href="/seccionar" class="btn"><i class="fa-solid fa-badge-check"></i>Aceptar</a>
+            </center>
+            <br>
+    </section>
+</body>
+
+</html>

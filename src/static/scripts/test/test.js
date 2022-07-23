@@ -1588,13 +1588,14 @@ let terminar= document.getElementById("terminar");//----------------------------
 terminar.addEventListener("click", result);//-----------------------------------------
 
 function result(){
+   if(true){
       document.getElementById("preg24").className =
       "contenido animated fadeOutLeft";//-----------------------------------------
       
       //Anexando cosas a los nombres valores etc
       conteo();
       setTimeout(function() {window.location.href = "google.com";},5000);
-      /*
+
       if(kines > visual && kines > auditiv ){
          document.getElementById("tipo").innerHTML ="Kinestesico";
          document.getElementById("kinestesico").className = "tipoDeAprendizaje";
@@ -1623,7 +1624,6 @@ function result(){
       alert("Los sentimos el test no fue completado, intente de nuevo.");
       location.href='Programa.html';
    }
-      */
 }
 
 

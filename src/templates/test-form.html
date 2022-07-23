@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,42 +29,33 @@
 
     <section class="login" id="login">
         <form action="">
-            <h1 class="heading">Ingresa tus datos</h1>
+            <h1 class="heading">REVISE Y COMPLETE SUS DATOS</h1>
             <div class="inputcaja">
                 <input type="text" required>
                 <label for="">Nombre del usuario</label>
             </div>
             <div class="inputcaja">
                 <input type="text" value="{{ dic[nombre] }}" required>
+                <!-- <input disabled  type="text" required> -->
                 <label for="">Nombres</label>
             </div>
             <div class="inputcaja">
                 <input type="text" value="{{ dic[apellido] }}" required>
                 <label for="">Apellido Paterno</label>
             </div>
-            <div class="inputcaja">
-                <input type="text"  required>
-                <label for="">Apellido materno</label>
-            </div>
+
             <div class="inputcaja">
                 <input type="text" value="{{ edad }}" required>
                 <label for="">Edad</label>
             </div>
             <div class="inputcaja">
-                <input type="text" required>
+                <input type="password" required>
                 <label for="">Contraseña</label>
             </div>
-            <div class="caja-contenedor">
-                <h1>Suba su indentificación de manera legible</h1>
-                <div class="caja">
-                    <div class="bottons">
-                        <input type="file" class="btn" name="" id="">
-                    </div>
-                </div>
-            </div>
+         
             <a> `</a>
             <div class="bottons">
-                <a href="/createA" class="btn"><i class="fa-solid fa-badge-check"></i>Enviar</a>
+                <a href="/vPadre" class="btn"><i class="fa-solid fa-badge-check"></i>Enviar</a>
             </div>
             
         </form>
