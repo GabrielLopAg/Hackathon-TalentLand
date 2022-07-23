@@ -26,8 +26,8 @@ form_recognizer_client = FormRecognizerClient(ENDPOINT, AzureKeyCredential(API_K
 driver_license_url = 'https://imengine.prod.srp.navigacloud.com/?uuid=ED02B807-1CE5-4B2F-97F6-0EE3AB39736F&type=primary&q=72&width=1024'
 
 poller = form_recognizer_client.begin_recognize_identity_documents_from_url(driver_license_url)
-# print(poller.status())
-# result = poller.result()
+print(poller.status())
+result = poller.result()
 # print(result)
 if poller.status() == 'succeeded':
     result = poller.result()
