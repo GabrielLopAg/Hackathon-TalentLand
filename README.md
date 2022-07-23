@@ -12,6 +12,10 @@
   @Hackaton hunters
 </p>
 
+<p align="center">
+  Nite es una plataforma web totalmente gratuita dedicada para estudiantes de educación básica que se hayan visto afectados académicamente por el confinamiento   derivado del COVID-19.
+</p>  
+
 <h3 align="center">
       <strong>Tecnologías</strong>
   
@@ -25,22 +29,49 @@
 </h3>
   
   
-# Descripción de proyecto
-- Nite es una plataforma web totalmente gratuita dedicada para estudiantes de educación básica que se hayan visto afectados académicamente por el confinamiento derivado del COVID-19.
+# Funcionalidades de proyecto
 - Se adaptará totalmente al estilo de aprendizaje del alumno y al avance que este tenga gracias al uso de Machine Learning.
 - Permite la comunicación 1-1 entre alumnos y tutores a través de servicios de chat y videollamada así como una gran cantidad de cursos para su desarrollo fuera de clases y reunionones.
 - Permite visualizar a los padres el progreso de su hijo a través de distintas gráficas, además de informarle cuando se detecte cualquier tipo de anomalía en el desempeño de su hijo con el fin de poder detectar el problema.
 - Promueve el aprendizaje entre comunidad para que aquellos estudiantes con mayor cantidad de competencias apoye a estudiantes con mayores dificultades en su progreso.
 
+# Flujo de la página
+
+### Pantalla principal
+![Pantalla_principal](https://user-images.githubusercontent.com/34460585/180602422-e20ba612-eee4-4838-9e89-4bf542368074.jpeg)
+
+### Test de tipos de aprendizaje
+![Test aprendizaje](https://user-images.githubusercontent.com/34460585/180603505-311bcdf5-08b9-4d29-a532-7279acad07f1.jpeg)
+
+### Lista de cursos
+![Cursos](https://user-images.githubusercontent.com/34460585/180603516-592d8452-ecbe-45a3-b07c-ee558b1177ef.jpg)
+
+### Sistema de recompensas
+![Insiginias](https://user-images.githubusercontent.com/34460585/180603459-249b8684-0528-4146-87e7-7ff10e62d944.jpeg)
+
+
+## Diagrama de recursos de Azure
+![Diagrama Azure]
+
 
 # Correr la aplicación 💻
 
-## Crear entorno virtual
+### Crear entorno virtual
 
-## Instalar requerimientos
+### Instalar requerimientos
 
 Deberás instalar los requerimientos mencionados en el archivo 'requirements.txt'
 pip install -r requirements.txt
 
-## Establecer variables de entorno
+### Establecer variables de entorno
 set "FLASK_APP=run.py"
+
+### Ejecutar en Flask
+flask run
+
+# Autores ✒️
+- Uriel Badillo: https://github.com/UrieLBadilloG
+- Axel Centeno: https://github.com/AxelCenteno
+- Alejandro Gómez: https://github.com/AlexNear77
+- Gabriel López: https://github.com/GabrielLopAg 
+- Aldo Rodríguez
