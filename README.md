@@ -1,15 +1,15 @@
 <p align="center">
-  <img alt="SAEP logo" src="https://i.ibb.co/gFJkDmc/filename.png" width=100  >
+  <img alt="NITE logo" src="https://i.ibb.co/gFJkDmc/filename.png" width=100  >
 </p>
 <h1 align="center">
   <a href="#">
-    Sistema de Administración Escolar de Posgrado
+    NITE
   </a>
 </h1>
 
 <p align="center">
-  <strong>El Sistema de Administración Escolar de Posgrado será un sistema de información intensivo y extensivo para poder controlar toda la información académica de cada estudiante de posgrado. </strong><br>
-  @ESFM-X
+  <strong>------------ </strong><br>
+  @Hackaton hunters
 </p>
 
 
