@@ -1,3 +1,4 @@
+import os
 from azure.core.exceptions import ResourceNotFoundError
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.formrecognizer import FormRecognizerClient 
@@ -14,6 +15,10 @@ def extract_id_field_value(id_card, field_name):
         print()
     except AttributeError:
         print('Nothing returned')
+
+
+API_KEY = os.environ['API_KEY']
+ENDPOINT = os.environ['ENDPOINT']
 
 form_recognizer_client = FormRecognizerClient(ENDPOINT, AzureKeyCredential(API_KEY))
 
