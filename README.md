@@ -51,7 +51,8 @@
 
 
 ## Diagrama de recursos de Azure
-![Diagrama Azure]
+![Diagrama Azure](https://user-images.githubusercontent.com/34460585/180604137-07d981e4-9108-4d66-8421-46cbe29918fc.jpeg)
+
 
 
 # Correr la aplicación 💻
