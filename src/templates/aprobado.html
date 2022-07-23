@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Asesorias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <span>EDUCA</span>tionery
+        </a>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fa fa-bars"></label>
+        <nav class="navbar">
+            <a href="/alumno/gView.html">inicio</a>
+        </nav>
+
+    </header>
+    <section class="aseso" id="aseso">
+        <div class="image">
+            <img src="{{url_for('static', filename='/img/cerebro.png')}}" alt="">
+        </div>
+        <form action="">
+            <h5 class="heading">felicidades</h5> 
+            <h1 class="heading">Aprobaste el curso de:</h1>
+            <h1>Suma de fracciones</h1>
+            <br>
+            <div class="bottons">
+                <a href="/alumno/gView.html" class="btn"><i class="fa-solid fa-badge-check"></i>Inicio</a>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
