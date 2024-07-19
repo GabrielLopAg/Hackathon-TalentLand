@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, jsonify
 from flask_login import login_required, current_user
 from .utils import form_recognizer
 
-d = form_recognizer.datos
+# d = form_recognizer.datos
 
 views = Blueprint('views', __name__)
 
@@ -101,9 +101,9 @@ def vPadre():
     return render_template("vPadre.html")
 
 
-@views.route('/test-form', methods=['GET'])
-def test_form():
-    return render_template("test-form.html", dic=d, nombre="FirstName", apellido="LastName", edad=str(2022-d["DateOfBirth"].year))
+# @views.route('/test-form', methods=['GET'])
+# def test_form():
+#     return render_template("test-form.html", dic=d, nombre="FirstName", apellido="LastName", edad=str(2022-d["DateOfBirth"].year))
 
 
 @views.route('/test', methods=['GET'])

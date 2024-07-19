@@ -9,7 +9,7 @@ from flask_login import LoginManager, login_manager
 from .views import views
 
 # Database
-from .db import db, app
+from .db import app
 
 
 # Blueprints
